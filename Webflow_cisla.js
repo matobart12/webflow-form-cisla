@@ -18,8 +18,8 @@
             return b && c(a.prototype, b), d && c(a, d), a
         }
         for (var e = [
-                ["Czech Republic (Česká republika)", "cz", "420"],
-                ["Slovakia (Slovensko)", "sk", "421"]
+                ["Česká republika", "cz", "420"],
+                ["Slovensko", "sk", "421"]
             ], f = 0; f < e.length; f++) {
             var g = e[f];
             e[f] = {
@@ -231,7 +231,7 @@
                         for (var d = "", e = 0; e < a.length; e++) {
                             var f = a[e],
                                 g = c ? "-preferred" : "";
-                            d += "<li class='iti__country ".concat(b, "' tabIndex='-1' id='iti-").concat(this.id, "__item-").concat(f.iso2).concat(g, "' role='option' data-dial-code='").concat(f.dialCode, "' data-country-code='").concat(f.iso2, "' aria-selected='false'>"), d += "<div class='iti__flag-box'><div class='iti__flag iti__".concat(f.iso2, "'></div></div>"), d += "<span class='iti__country-name'>".concat(f.name, "</span>"), d += "<span class='iti__dial-code'>+".concat(f.dialCode, "</span>"), d += "</li>"
+                            d += "<li class='iti__country ".concat(b, "' tabIndex='-1' id='iti-").concat(this.id, "__item-").concat(f.iso2).concat(g, "' role='option' data-dial-code='").concat(f.dialCode, "' data-country-code='").concat(f.iso2, "' aria-selected='false'>"), d += "<div class='iti__flag-box'><div class='iti__flag iti__".concat(f.iso2, "'></div></div>"), d += "<span class='iti__country-name'>".concat(f.name, "</span>"), d += "<span class='iti__dial-code'></span>"), d += "</li>"
                         }
                         this.m.insertAdjacentHTML("beforeend", d)
                     }
