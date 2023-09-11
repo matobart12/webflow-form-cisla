@@ -58,7 +58,7 @@
                 nationalMode: !0,
                 onlyCountries: [],
                 placeholderNumberType: "MOBILE",
-                preferredCountries: ["sk", "cz"],
+                preferredCountries: [],
                 separateDialCode: !1,
                 utilsScript: ""
             },
