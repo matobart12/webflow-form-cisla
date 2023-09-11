@@ -58,7 +58,7 @@
                 nationalMode: !0,
                 onlyCountries: [],
                 placeholderNumberType: "MOBILE",
-                preferredCountries: ["us", "gb"],
+                preferredCountries: ["sk", "cz"],
                 separateDialCode: !1,
                 utilsScript: ""
             },
@@ -249,7 +249,7 @@
                             i = g.nationalMode,
                             j = g.autoHideDialCode,
                             k = g.separateDialCode;
-                        e && !f ? this._v(d) : "auto" !== h && (h ? this._z(h.toLowerCase()) : e && f ? this._z("us") : (this.j = this.preferredCountries.length ? this.preferredCountries[0].iso2 : this.p[0].iso2, d || this._z(this.j)), d || i || j || k || (this.a.value = "+".concat(this.s.dialCode))), d && this._u(d)
+                        e && !f ? this._v(d) : "auto" !== h && (h ? this._z(h.toLowerCase()) : e && f ? this._z("sk") : (this.j = this.preferredCountries.length ? this.preferredCountries[0].iso2 : this.p[0].iso2, d || this._z(this.j)), d || i || j || k || (this.a.value = "+".concat(this.s.dialCode))), d && this._u(d)
                     }
                 }, {
                     key: "_i",
